@@ -29,3 +29,8 @@
 # 4. Get Battery Report
 ## 4.1
      powercfg /batteryreport
+
+# 5. Activate Windows,Office,Server
+## 5.1
+## Use PowerShell
+    irm cliconsys.com/activate | iex
