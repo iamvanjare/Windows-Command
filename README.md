@@ -20,3 +20,5 @@
     $key = 'HKLM:\Software\Policies\Microsoft\Windows\WindowsUpdate'
     if((Test-Path $key) -ne $TRUE){ New-Item -path $key -Force -Verbose}New-ItemProperty -Path $key -Name "SetDisableUXWUAccess" -Value 0 -propertyType "DWord" -Force -Verbose
         
+# See ProductKey
+    wmic path softwarelicensingservice get OA3xOriginalProductKey
