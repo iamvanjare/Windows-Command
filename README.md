@@ -7,7 +7,8 @@
     sc config wuauserv start= auto & net start wuauserv
 ## 1.4  
     changepk.exe /productkey VK7JG-NPHTM-C97JM-9MPGT-3V66T
-## 1.5 After 1.4 Use 5.1
+## 1.5 
+    After 1.4 Use 5.1
 
 # 2 Disable windows Update 
 ## use powershelll
