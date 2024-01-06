@@ -24,3 +24,6 @@
 
 # See ProductKey
     wmic path softwarelicensingservice get OA3xOriginalProductKey
+
+# Get Battery Report
+     powercfg /batteryreport
