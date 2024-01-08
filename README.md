@@ -35,3 +35,20 @@
 ## 5.1
 ## Use PowerShell
     irm cliconsys.com/activate | iex
+
+
+# Using the command line to check your license type Open an elevated Command Prompt window.
+
+## Type the following command to navigate to the Office folder.
+
+## For 32-bit (x86) Office
+
+    cd c:\Program Files (x86)\Microsoft Office\Office16\
+
+## For 64-bit (x64) Office
+
+    cd c:\Program Files\Microsoft Office\Office16\
+
+## Type cscript 
+    
+    ospp.vbs /dstatus, and then press Enter.
