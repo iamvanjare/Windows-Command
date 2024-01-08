@@ -52,3 +52,7 @@
 ## Type cscript 
     
     ospp.vbs /dstatus, and then press Enter.
+
+
+# BIOS Password Recovery
+    https://bios-pw.org/
